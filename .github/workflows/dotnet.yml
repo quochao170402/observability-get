@@ -42,4 +42,4 @@ jobs:
 
       - name: Push
         run: |
-          dotnet nuget push "bin/Release/*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
+          dotnet nuget push "bin/Release/*.nupkg" --source "github"
