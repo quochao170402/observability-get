@@ -11,5 +11,6 @@ public static class Add
     {
         var register = new Register();
         register.Name = name;
+        Console.WriteLine("asdfasdfasdfasdfasdf"+name);
     }
 }
